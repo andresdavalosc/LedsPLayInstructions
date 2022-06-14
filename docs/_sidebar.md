@@ -3,5 +3,4 @@
 * [code](code.md)
 * [failures](failures.md)
 * [recommendations](recommendations.md)
-* [besluit](besluit.md)
-* [extra](extra.md)
+* [improvements](improvements.md)
