@@ -2,5 +2,4 @@
 * [theproject](theproject.md)
 * [code](code.md)
 * [failures](failures.md)
-* [recommendations](recommendations.md)
 * [improvements](improvements.md)
