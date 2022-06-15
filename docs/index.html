@@ -6,22 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Loading site ..</div>
   <script>
     window.$docsify = {
-      name: "Instructions for Led's PLay",
+      logo: '/img/logo.png',
+      name: "<span>Led's PLay<span>",
       repo: 'https://github.com/andresdavalosc/LedsPLayInstructions.git',
-      maxLevel:'4',
+      maxLevel:'1',
       loadSidebar: true,
       auto2top: true,
       subMaxLevel: 1,
-      homepage: 'introduction.md'
+      homepage: 'introduction.md',
+      themeColor: '#1AA7EC',
+      autoHeader: true,
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
 </body>
 </html>
